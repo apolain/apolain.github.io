@@ -82,7 +82,7 @@
                 </div>
                 <!-- About Section Content-->
                 <div class="row">
-                    <div class="col-lg-4 ms-auto"><p class="lead">Je suis doctorant en thèse CIFRE en partenariat avec l'université Paris Saclay et le cabinet de conseil Exiom Partners. </p></div>
+                    <div class="col-lg-4 ms-auto"><p class="lead">Je suis doctorant en thèse CIFRE en partenariat avec l'université Paris Saclay et le cabinet de conseil Exiom Partners. Un peu geek, je suis développeur à mes heures perdues !</p></div>
                     <div class="col-lg-4 me-auto"><p class="lead">Mes recherches portent sur l'application des techniques de machine learning aux problèmes réglementaires des banques de marché. </p></div>
                 </div>
                 <!-- About Section Button-->
@@ -137,34 +137,31 @@
                     <div class="col-lg-8 col-xl-7">
                         <!-- * * * * * * * * * * * * * * *-->
                         <!-- * * SB Forms Contact Form * *-->
-                        <!-- * * * * * * * * * * * * * * *-->
-                        <!-- This form is pre-integrated with SB Forms.-->
-                        <!-- To make this form functional, sign up at-->
-                        <!-- https://startbootstrap.com/solution/contact-forms-->
-                        <!-- to get an API token!-->
-                        <form id="contactForm" data-sb-form-api-token="API_TOKEN">
+
+<!--                        data-sb-form-api-token="API_TOKEN"-->
+                        <form id="contactForm" action="https://docs.google.com/forms/d/e/1FAIpQLSeFoO57DAerVnLsdvZn1Ftsyj6YVIGmm7hFbZHB_TZhbJ5sog/formResponse?" target="hidden_iframe">
                             <!-- Name input-->
                             <div class="form-floating mb-3">
-                                <input class="form-control" id="name" type="text" placeholder="Enter your name..." data-sb-validations="required" />
+                                <input class="form-control" id="name" name="entry.1537461198" type="text" placeholder="Enter your name..." data-sb-validations="required" />
                                 <label for="name">Nom et prénom</label>
                                 <div class="invalid-feedback" data-sb-feedback="name:required">A name is required.</div>
                             </div>
                             <!-- Email address input-->
                             <div class="form-floating mb-3">
-                                <input class="form-control" id="email" type="email" placeholder="name@example.com" data-sb-validations="required,email" />
+                                <input class="form-control" id="email" name="entry.2066854121" type="email" placeholder="name@example.com" data-sb-validations="required,email" />
                                 <label for="email">Adresse email</label>
                                 <div class="invalid-feedback" data-sb-feedback="email:required">An email is required.</div>
                                 <div class="invalid-feedback" data-sb-feedback="email:email">Email is not valid.</div>
                             </div>
                             <!-- Phone number input-->
                             <div class="form-floating mb-3">
-                                <input class="form-control" id="phone" type="tel" placeholder="(123) 456-7890" data-sb-validations="required" />
+                                <input class="form-control" id="phone" name="entry.1250536700" type="tel" placeholder="(123) 456-7890" data-sb-validations="required" />
                                 <label for="phone">Numéro de téléphone</label>
                                 <div class="invalid-feedback" data-sb-feedback="phone:required">A phone number is required.</div>
                             </div>
                             <!-- Message input-->
                             <div class="form-floating mb-3">
-                                <textarea class="form-control" id="message" type="text" placeholder="Enter your message here..." style="height: 10rem" data-sb-validations="required"></textarea>
+                                <textarea class="form-control" id="message" name="entry.1315237302" type="text" placeholder="Enter your message here..." style="height: 10rem" data-sb-validations="required"></textarea>
                                 <label for="message">Message</label>
                                 <div class="invalid-feedback" data-sb-feedback="message:required">A message is required.</div>
                             </div>
@@ -172,12 +169,11 @@
                             <!---->
                             <!-- This is what your users will see when the form-->
                             <!-- has successfully submitted-->
+                            <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="if(submitted) {}"></iframe>
+
                             <div class="d-none" id="submitSuccessMessage">
                                 <div class="text-center mb-3">
                                     <div class="fw-bolder">Form submission successful!</div>
-                                    To activate this form, sign up at
-                                    <br />
-                                    <a href="https://startbootstrap.com/solution/contact-forms">https://startbootstrap.com/solution/contact-forms</a>
                                 </div>
                             </div>
                             <!-- Submit error message-->
@@ -186,7 +182,7 @@
                             <!-- an error submitting the form-->
                             <div class="d-none" id="submitErrorMessage"><div class="text-center text-danger mb-3">Error sending message!</div></div>
                             <!-- Submit Button-->
-                            <button class="btn btn-primary btn-xl disabled" id="submitButton" type="submit">Envoyer</button>
+                            <button class="btn btn-primary btn-xl" id="submitButton" type="submit">Envoyer</button>
                         </form>
                     </div>
                 </div>
@@ -246,10 +242,10 @@
                                     <!-- Portfolio Modal - Image-->
 <!--                                    <img class="img-fluid rounded mb-5" src="assets/img/portfolio/cabin.png" alt="..." />-->
                                     <!-- Portfolio Modal - Text-->
-                                    <p class="mb-4">Mes recherches portent sur </p>
+                                    <p class="mb-4">La crise financière de 2008 a mis en exergue les failles du système bancaire mondial. En particulier, certains établissements bancaires ont abordé la crise avec une capitalisation (niveau de fonds propres) insuffisante pour faire face aux pertes à venir mettant alors l’équilibre financier mondial en péril. Par conséquent, les régulateurs ont, depuis lors, imposé des exigences de modélisation de plus en plus contraignantes afin de s’assurer que les banques aient des niveaux de fonds propres suffisants pour faire face à une éventuelle prochaine crise. Ces réformes, visant à modéliser et quantifier de manière plus fine les risques bancaires, sont encore en cours. Les besoins de modélisation sont de plus en plus complexes, les volumétries de données nécessaires de plus en plus importantes et les fréquences de calcul imposées de plus en plus élevées. Et si l’utilisation des nouvelles techniques de Machine Learning peut désormais apparaître comme une réponse naturelle aux nouvelles problématiques de temps et de volume de calcul, leur intégration opérationnelle dans les modèles de risques bancaires est encore balbutiante.</p>
                                     <button class="btn btn-primary" data-bs-dismiss="modal">
                                         <i class="fas fa-xmark fa-fw"></i>
-                                        Close Window
+                                        Fermer
                                     </button>
                                 </div>
                             </div>
@@ -268,5 +264,14 @@
         <!-- * * Activate your form at https://startbootstrap.com/solution/contact-forms * *-->
         <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
         <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
+
+        <script src="assets/js/jquery.min.js"></script>
+        <script type="text/javascript">var submitted=false;</script>
+        <script type="text/javascript">
+            $('#gform').on('submit', function(e) {
+                $('#gform *').fadeOut(2000);
+                $('#gform').prepend('Your submission has been processed...');
+            });
+        </script>
     </body>
 </html>
