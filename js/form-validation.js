@@ -4,7 +4,9 @@ const phoneForm = document.querySelector("#phone");
 const messageForm = document.querySelector("#message");
 const successMsg = document.querySelector("#success-message");
 
-const form = document.querySelector("#contact-me-form")
+//https://www.javascripttutorial.net/javascript-dom/javascript-form-validation/
+
+const form = document.querySelector("#gform")
 
 
 const isRequired = value => value === '' ? false : true;
@@ -133,6 +135,8 @@ form.addEventListener('submit', function (e) {
 
     // submit to the server if the form is valid
     if (isFormValid) {
+        const url = form.action + nameForm.name + "=" + nameForm.value + "&" + emailForm.name + "=" + emailForm.value + "&" + phoneForm.name + "=" + phoneForm.value + "&" + messageForm.name + "=" + messageForm.value.replace(" ", "+");
+        jQuery.get(url)
         nameForm.value = "";
         emailForm.value = "";
         phoneForm.value = "";
