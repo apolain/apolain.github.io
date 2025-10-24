@@ -8,7 +8,7 @@ const navbarLinks = {
 
 const globalData = {
   image: "../files/profile.jpg",
-  resume: "",
+  resume: "https://github.com/apolain/MyResume/blob/main/cv.pdf",
   enAddress: " Paris ",
   phone: "",
   email: "paulinaubert@orange.fr",
