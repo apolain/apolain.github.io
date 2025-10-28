@@ -16,7 +16,7 @@ const enHomePageData = {
   home_content: `
   <div>
     <p> I am a Quantitative Analyst with a strong background in applied mathematics, stochastic control, and financial engineering. 
-    I completed a CIFRE PhD in France, carried out jointly between academia and industry, where my research focuses on the development of numerical and learning-based methods for stochastic control problems in quantitative finance. 
+    I completed a CIFRE PhD in France, carried out jointly between academia (Exiom Partners) and industry (Laboratoire de Mathématiques et Modélisation d'Evry (LaMME)), where my research focuses on the development of numerical and learning-based methods for stochastic control problems in quantitative finance. 
     My work lies at the intersection of mathematical modeling, probability theory, and machine learning, and my PhD defense is scheduled for December 2025.
     </p>
     <h2 class='title'> About my work </h2>
@@ -28,7 +28,7 @@ const enHomePageData = {
       Typical applications include optimal stopping for option pricing, dividend and capital injection optimization 
       in insurance models, as well as market making and optimal liquidation problems. 
       The overall objective is to bridge mathematical modeling and practical implementation, 
-      designing algorithms that are both theoretically sound and computationally efficient.
+      designing algorithms that are both theoretically grounded and computationally efficient.
     </p>
 
     <h2 class='title'> Current position </h2>
