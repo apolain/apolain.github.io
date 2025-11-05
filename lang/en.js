@@ -64,7 +64,7 @@ const enPublicationsPageData = {
       title: `“Option market making with hedging-induced market impact“`,
       abstract: "We develop a stochastic control framework for option market making where hedging generates transient and permanent price impacts on the underlying market, and analyze the resulting mixed regular-impulse control problem.",
       date: "2025",
-      link: "",
+      link: "https://arxiv.org/abs/2511.02518",
       github: "",
       writers: ["Paulin Aubert", "Etienne Chevalier", "Vathana Ly Vath"],
     },
