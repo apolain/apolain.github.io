@@ -52,20 +52,20 @@ const enPublicationsPageData = {
 
   type_one_items: [
     {
+      title: `“Option market making with hedging-induced market impact“`,
+      abstract: "We develop a stochastic control framework for option market making where hedging generates transient and permanent price impacts on the underlying market, and analyze the resulting mixed regular-impulse control problem.",
+      date: "2025",
+      link: "https://arxiv.org/abs/2511.02518",
+      github: "",
+      writers: ["Paulin Aubert", "Etienne Chevalier", "Vathana Ly Vath"],
+    },
+    {
       title: `“Optimal dividends and capital injections under self-exciting claims“`,
       abstract: "We study an optimal dividend and capital injection problem in an insurance model with clustered claim arrivals modeled by a Hawkes process, and solve it numerically using reinforcement learning methods.",
       date: "2025",
       link: "",
       github: "",
       download: "",
-      writers: ["Paulin Aubert", "Etienne Chevalier", "Vathana Ly Vath"],
-    },
-    {
-      title: `“Option market making with hedging-induced market impact“`,
-      abstract: "We develop a stochastic control framework for option market making where hedging generates transient and permanent price impacts on the underlying market, and analyze the resulting mixed regular-impulse control problem.",
-      date: "2025",
-      link: "https://arxiv.org/abs/2511.02518",
-      github: "",
       writers: ["Paulin Aubert", "Etienne Chevalier", "Vathana Ly Vath"],
     },
     {
