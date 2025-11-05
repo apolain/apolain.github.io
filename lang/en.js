@@ -48,7 +48,7 @@ const enHomePageData = {
 
 // ---------- Publications page data
 const enPublicationsPageData = {
-  type_one_title: "To be submitted",
+  type_one_title: "Working papers",
 
   type_one_items: [
     {
